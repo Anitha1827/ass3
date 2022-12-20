@@ -34,6 +34,7 @@ let jsonforin = [{
   for (var key in jsonforin){
     console.log(jsonforin[key].msg);
   };
+// Using For off
 
   let jsonforof = [{
     "id": "1",
@@ -51,6 +52,7 @@ let jsonforin = [{
     console.log(element);
   }
 
+// Using For each 
   let jsonforeach = [{
     "id": "1",
     "msg": "hi",
